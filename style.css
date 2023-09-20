@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+#tempCalc{
+    width: 800px;
+    height: 180px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 270px;
+    font-family: 'PT Serif', serif;
+    box-shadow:   2px 5px rgba(16, 17, 13, 0.5);
+}
+label{
+    padding: 100px 100px 100px 200px;
+}
+#temp{
+    width: 70px;
+    margin-left:270px;
+}
+#submit{
+    margin-left: 300px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+#resultContainer{
+    margin-left: 290px;
+    margin-bottom: 20px;
+}
